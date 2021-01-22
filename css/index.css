@@ -141,19 +141,20 @@ button:hover{
         font-size: 4rem;
     }
 
-    a {
-        font-size: 1.5rem;
+    nav a {
+        font-size: 1.75rem;
     }
 
     nav span{
         border-left:1px solid #626262;
-        height: 1.25rem;
-        margin: 0.5rem;
+        height: 1.5rem;
+        margin: 0.6rem 1rem 0rem 1rem;
     }
     
     .title-container div {
         width: 100%;
         background-size: 225%;
+        margin-bottom: 2%;
     }
 
     button {
@@ -169,5 +170,24 @@ button:hover{
     .artists-container {
         flex-flow: column nowrap;
         align-items: center;
+    }
+
+    .artist {
+        width: 80%;
+        margin: 3% auto;
+    }
+
+    .artist img {
+        height: auto;
+        width: 70%;
+        margin: 4% auto;
+    }
+    
+    .artist a {
+        font-size: 100%;
+    }
+
+    .artist .bio {
+        font-size: 70%;
     }
 }
