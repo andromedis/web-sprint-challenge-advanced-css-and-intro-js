@@ -17,15 +17,27 @@ In this challenge, you will use a data set of artists to build an "influential a
 ### Commits
 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead.
-
+s
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+Accessibility on the web means making sure that people with various levels of disability are equally able to use your website, using their own browser settings or specialized tools like screen readers. It often involves redundancy, customizability, and adaptability in the way data is displayed to users.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+One thing that makes a website more accessible is not using color as the only way of conveying information, and instead/also having cues like symbols that are accessible to color-blind people, and often helpful to other users as well. Another thing that increases accessibility is using semantic HTML and avoiding <div> and <span> tags where accessible tags exist. This helps blind users navigate the page better with screen readers, as well as being more readable to any developers who need to understand or update the HTML of the page. Finally, you can increase accessibility by using responsive units like %, em, and rem rather than fixed units like px throughout the page, but especially for font and image sizes. This allows people who have some vision loss or dyslexia adjust the sizes of elements in your page to be readable for them.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is a name for a piece of data, that allows you to use that data anywhere by writing out the name, and helps you to remember the significance and meaning of the data, serving as a kind of label.
+
 4. What is the purpose of using functions in code?
+
+Functions in code allow you to use the same code reapeatedly with different data, even on different objects and data structures. It keeps code DRY by only having one generalized version of a block of code that is called wherever it needs to be used, rather than being written out with the specific data every time it is needed.
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
